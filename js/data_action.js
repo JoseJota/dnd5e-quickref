@@ -1,9 +1,9 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Atacar",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Cuerpo a cuerpo o a distancia",
+        description: "Realiza un ataque cuerpo a cuerpo o a distancia con tu arma",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
@@ -14,10 +14,10 @@ data_action = [
         ]
     },
     {
-        title: "Grapple",
+        title: "Agarrar",
         icon: "grab",
-        subtitle: "Special melee attack",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Ataque cuerpo a cuerpo especial",
+        description: "Intentar agarrar a una criatura o forcejear con ella",
         reference: "PHB, pg. 195.",
         bullets: [
             "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -27,9 +27,9 @@ data_action = [
         ]
     },
     {
-        title: "Shove",
+        title: "Empujar",
         icon: "hand",
-        subtitle: "Special melee attack",
+        subtitle: "Ataque cuerpo a cuerpo especial",
         description: "Shove a creature, either to knock it prone or push it away from you",
         reference: "PHB, pg. 195.",
         bullets: [
@@ -40,10 +40,10 @@ data_action = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lanzar un hechizo",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Tiempo de lanzamiento de 1 acción",
+        description: "Lanza un hechizo con un tiempo de lanzamiento de 1 acción",
         reference: "PHB, pg. 192.",
         bullets: [
             "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
@@ -53,20 +53,20 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Esprintar",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Duplica la velocidad de movimineto.",
+        description: "Gana movimiento extra para este turno",
         reference: "PHB, pg. 192.",
         bullets: [
             "The increase equals your speed, after applying any modifiers."
         ]
     },
     {
-        title: "Disengage",
+        title: "Retirarse",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Impide ataques de oportunidad",
+        description: "Tu movimiento no provoca ataques de oportunidad durante el resto del turno",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
@@ -94,10 +94,10 @@ data_action = [
         ]
     },
     {
-        title: "Help",
+        title: "Ayudar",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Proporcionar ventaja a un aliado",
+        description: "Proporciona ventaja a un aliado a una tirada de habilidad o de ataque",
         reference: "PHB, pg. 192.",
         bullets: [
             "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
@@ -106,7 +106,7 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
+        title: "Usar un objeto",
         icon: "snatch",
         subtitle: "Interact, use special abilities",
         description: "Interact with a second object or use special object abilities",
